@@ -1,0 +1,32 @@
+.upload_container {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #D0CFCF;
+}
+
+.upload_input {
+    display: none;
+}
+
+.upload_btn {
+    width: 83px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid var(--black-87, rgba(0, 0, 0, 0.87));
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.upload_btn:hover {
+    background-color: rgb(225, 227, 230);
+}
+
+.upload_label {
+    padding-left: 16px;
+    user-select: none;
+}

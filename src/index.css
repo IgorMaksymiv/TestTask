@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 2560px;
+    margin: 0 auto;
+    background: var(--background, #F8F8F8);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+@media (max-width: 2560px) {
+    body {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        max-width: 780px;
+    }
+}
+
+@media (max-width: 780px) {
+    body {
+        max-width: 360px;
+    }
+}

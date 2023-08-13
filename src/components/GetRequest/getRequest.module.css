@@ -1,0 +1,29 @@
+@font-face{
+    font-family: 'Nunito';
+    src: url(../../assets/fonts/Nunito-Italic.ttf);
+    font-weight: 400;
+}
+
+.request_container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 140px;
+}
+
+.country_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container_btn{
+    width: 124px;
+    margin: 0 auto;
+}
+
+.request_title{
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 400;
+}

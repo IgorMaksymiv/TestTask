@@ -1,0 +1,27 @@
+.tooltip_trigger {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(5px, -50%);
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.tooltip_trigger:hover .tooltip {
+    opacity: 1;
+    transform: translate(0, -50%);
+    pointer-events: auto;
+}

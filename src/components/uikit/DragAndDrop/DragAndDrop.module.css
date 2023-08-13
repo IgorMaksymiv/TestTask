@@ -1,0 +1,22 @@
+.foto_container {
+    width: 376px;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.img:hover{
+    transform: scale(1.09);
+}
+
+.icon_close{
+    height: fit-content;
+    cursor: pointer;
+}

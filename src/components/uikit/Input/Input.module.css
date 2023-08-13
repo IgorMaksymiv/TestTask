@@ -1,0 +1,28 @@
+@font-face{
+    font-family: 'Nunito';
+    src: url(../../../assets/fonts/Nunito-Italic.ttf);
+    font-weight: 400;
+}
+
+.input {
+    width: 100%;
+    padding: 14px 0 14px 16px;
+    border-radius: 4px;
+    border: 1px solid #D0CFCF;
+}
+
+.label {
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.error {
+    font-family: 'Nunito';
+    text-align: center;
+    font-size: 24px;
+    color: red;
+}

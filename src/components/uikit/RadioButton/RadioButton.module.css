@@ -1,0 +1,10 @@
+.checkbox {
+    cursor: pointer;
+}
+
+.label {
+    margin-left: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
